@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/brian/workspace/nd213-project3/build",
+  "command": "/usr/bin/g++-7  -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0 -isystem /usr/include/wx-3.0   -pthread -g   -std=gnu++1z -o CMakeFiles/membot.dir/src/chatbot.cpp.o -c /home/brian/workspace/nd213-project3/src/chatbot.cpp",
+  "file": "/home/brian/workspace/nd213-project3/src/chatbot.cpp"
+},
+{
+  "directory": "/home/brian/workspace/nd213-project3/build",
+  "command": "/usr/bin/g++-7  -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0 -isystem /usr/include/wx-3.0   -pthread -g   -std=gnu++1z -o CMakeFiles/membot.dir/src/chatgui.cpp.o -c /home/brian/workspace/nd213-project3/src/chatgui.cpp",
+  "file": "/home/brian/workspace/nd213-project3/src/chatgui.cpp"
+},
+{
+  "directory": "/home/brian/workspace/nd213-project3/build",
+  "command": "/usr/bin/g++-7  -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0 -isystem /usr/include/wx-3.0   -pthread -g   -std=gnu++1z -o CMakeFiles/membot.dir/src/chatlogic.cpp.o -c /home/brian/workspace/nd213-project3/src/chatlogic.cpp",
+  "file": "/home/brian/workspace/nd213-project3/src/chatlogic.cpp"
+},
+{
+  "directory": "/home/brian/workspace/nd213-project3/build",
+  "command": "/usr/bin/g++-7  -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0 -isystem /usr/include/wx-3.0   -pthread -g   -std=gnu++1z -o CMakeFiles/membot.dir/src/graphedge.cpp.o -c /home/brian/workspace/nd213-project3/src/graphedge.cpp",
+  "file": "/home/brian/workspace/nd213-project3/src/graphedge.cpp"
+},
+{
+  "directory": "/home/brian/workspace/nd213-project3/build",
+  "command": "/usr/bin/g++-7  -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0 -isystem /usr/include/wx-3.0   -pthread -g   -std=gnu++1z -o CMakeFiles/membot.dir/src/graphnodes.cpp.o -c /home/brian/workspace/nd213-project3/src/graphnodes.cpp",
+  "file": "/home/brian/workspace/nd213-project3/src/graphnodes.cpp"
+}
+]

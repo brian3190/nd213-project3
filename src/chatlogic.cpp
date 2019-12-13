@@ -7,7 +7,7 @@
 #include <algorithm>
 
 #include "graphedge.h"
-#include "graphnode.h"
+#include "graphnodes.h"
 #include "chatbot.h"
 #include "chatlogic.h"
 

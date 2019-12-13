@@ -2,9 +2,8 @@
 #include <random>
 #include <algorithm>
 #include <ctime>
-
 #include "chatlogic.h"
-#include "graphnode.h"
+#include "graphnodes.h"
 #include "graphedge.h"
 #include "chatbot.h"
 
@@ -44,7 +43,43 @@ ChatBot::~ChatBot()
 
 //// STUDENT CODE
 ////
+ChatBot::ChatBot(ChatBot &&source)
+{
+    std::cout << "ChatBot Move Constructor" << std::endl;
+    _image = source._image;
+    _chatLogic = source._chatLogic;
+    _currentNode = source._currentNode;
+    _rootNode = source._rootNode;
 
+    source._chatLogic = nullptr;
+    source._currentNode = nullptr;
+    source._rootNode = nullptr;
+}
+
+ChatBot::Chatbot &operator=(ChatBot &&source)
+{
+    std::cout << "ChatBot Move Assignment Operator" << std::endl;
+    if (this == &source)
+        return *this;
+    
+    delete[] _image;
+    delete[] _currentNode;
+    delete[] _rootNode;
+    _image = source._image;
+    _chatLogic = source._chatLogic;
+    _currentNode = source._currentNode;
+    _rootNode = source._rootNode;
+
+    source._chatLogic = nullptr;
+    source._currentNode = nullptr;
+    source._rootNode = nullptr;
+    if(source._image != NULL) //wxWidgets used NULL and not nullptr
+    {
+        delete source._image;
+        source._image = NULL;
+    }
+    return *this;
+}
 ////
 //// EOF STUDENT CODE
 

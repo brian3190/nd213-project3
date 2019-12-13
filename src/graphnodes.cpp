@@ -1,5 +1,5 @@
 #include "graphedge.h"
-#include "graphnode.h"
+#include "graphnodes.h"
 
 GraphNode::GraphNode(int id)
 {
