@@ -5,6 +5,7 @@
 #include <iterator>
 #include <tuple>
 #include <algorithm>
+#include <memory>
 
 #include "graphedge.h"
 #include "graphnodes.h"
@@ -36,16 +37,20 @@ ChatLogic::~ChatLogic()
     delete _chatBot;
 
     // delete all nodes
+
     for (auto it = std::begin(_nodes); it != std::end(_nodes); ++it)
     {
-        delete *it;
+        std::cout << "deleted nodes" << "\n";
     }
+    
 
     // delete all edges
+    
     for (auto it = std::begin(_edges); it != std::end(_edges); ++it)
     {
-        delete *it;
+        std::cout << "deleted edges" << "\n";
     }
+    
 
     ////
     //// EOF STUDENT CODE

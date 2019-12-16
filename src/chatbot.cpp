@@ -56,15 +56,15 @@ ChatBot::ChatBot(ChatBot &&source)
     source._rootNode = nullptr;
 }
 
-ChatBot::Chatbot &operator=(ChatBot &&source)
+ChatBot &ChatBot::operator=(ChatBot &&source)
 {
     std::cout << "ChatBot Move Assignment Operator" << std::endl;
     if (this == &source)
         return *this;
     
-    delete[] _image;
-    delete[] _currentNode;
-    delete[] _rootNode;
+    delete _image;
+    delete _currentNode;
+    delete _rootNode;
     _image = source._image;
     _chatLogic = source._chatLogic;
     _currentNode = source._currentNode;

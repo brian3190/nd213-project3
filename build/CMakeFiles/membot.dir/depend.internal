@@ -738,8 +738,97 @@ CMakeFiles/membot.dir/src/chatlogic.cpp.o
  /usr/include/wx-3.0/wx/xtitypes.h
  /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0/wx/setup.h
 CMakeFiles/membot.dir/src/graphedge.cpp.o
+ /home/brian/workspace/nd213-project3/src/chatbot.h
  /home/brian/workspace/nd213-project3/src/graphedge.cpp
  /home/brian/workspace/nd213-project3/src/graphedge.h
+ /home/brian/workspace/nd213-project3/src/graphnodes.h
+ /usr/include/wx-3.0/wx/afterstd.h
+ /usr/include/wx-3.0/wx/any.h
+ /usr/include/wx-3.0/wx/anystr.h
+ /usr/include/wx-3.0/wx/arrstr.h
+ /usr/include/wx-3.0/wx/beforestd.h
+ /usr/include/wx-3.0/wx/bitmap.h
+ /usr/include/wx-3.0/wx/buffer.h
+ /usr/include/wx-3.0/wx/chartype.h
+ /usr/include/wx-3.0/wx/checkeddelete.h
+ /usr/include/wx-3.0/wx/chkconf.h
+ /usr/include/wx-3.0/wx/colour.h
+ /usr/include/wx-3.0/wx/compiler.h
+ /usr/include/wx-3.0/wx/cpp.h
+ /usr/include/wx-3.0/wx/crt.h
+ /usr/include/wx-3.0/wx/datetime.h
+ /usr/include/wx-3.0/wx/debug.h
+ /usr/include/wx-3.0/wx/defs.h
+ /usr/include/wx-3.0/wx/dlimpexp.h
+ /usr/include/wx-3.0/wx/dynarray.h
+ /usr/include/wx-3.0/wx/except.h
+ /usr/include/wx-3.0/wx/features.h
+ /usr/include/wx-3.0/wx/filefn.h
+ /usr/include/wx-3.0/wx/flags.h
+ /usr/include/wx-3.0/wx/fontenc.h
+ /usr/include/wx-3.0/wx/gdicmn.h
+ /usr/include/wx-3.0/wx/gdiobj.h
+ /usr/include/wx-3.0/wx/generic/logg.h
+ /usr/include/wx-3.0/wx/gtk/bitmap.h
+ /usr/include/wx-3.0/wx/gtk/chkconf.h
+ /usr/include/wx-3.0/wx/gtk/colour.h
+ /usr/include/wx-3.0/wx/hashmap.h
+ /usr/include/wx-3.0/wx/imagbmp.h
+ /usr/include/wx-3.0/wx/image.h
+ /usr/include/wx-3.0/wx/imaggif.h
+ /usr/include/wx-3.0/wx/imagiff.h
+ /usr/include/wx-3.0/wx/imagjpeg.h
+ /usr/include/wx-3.0/wx/imagpcx.h
+ /usr/include/wx-3.0/wx/imagpng.h
+ /usr/include/wx-3.0/wx/imagpnm.h
+ /usr/include/wx-3.0/wx/imagtga.h
+ /usr/include/wx-3.0/wx/imagtiff.h
+ /usr/include/wx-3.0/wx/imagxpm.h
+ /usr/include/wx-3.0/wx/intl.h
+ /usr/include/wx-3.0/wx/iosfwrap.h
+ /usr/include/wx-3.0/wx/language.h
+ /usr/include/wx-3.0/wx/list.h
+ /usr/include/wx-3.0/wx/log.h
+ /usr/include/wx-3.0/wx/longlong.h
+ /usr/include/wx-3.0/wx/math.h
+ /usr/include/wx-3.0/wx/memory.h
+ /usr/include/wx-3.0/wx/meta/if.h
+ /usr/include/wx-3.0/wx/meta/movable.h
+ /usr/include/wx-3.0/wx/meta/pod.h
+ /usr/include/wx-3.0/wx/msgout.h
+ /usr/include/wx-3.0/wx/object.h
+ /usr/include/wx-3.0/wx/platform.h
+ /usr/include/wx-3.0/wx/rtti.h
+ /usr/include/wx-3.0/wx/scopedptr.h
+ /usr/include/wx-3.0/wx/scopeguard.h
+ /usr/include/wx-3.0/wx/strconv.h
+ /usr/include/wx-3.0/wx/stream.h
+ /usr/include/wx-3.0/wx/string.h
+ /usr/include/wx-3.0/wx/stringimpl.h
+ /usr/include/wx-3.0/wx/stringops.h
+ /usr/include/wx-3.0/wx/strvararg.h
+ /usr/include/wx-3.0/wx/thread.h
+ /usr/include/wx-3.0/wx/tls.h
+ /usr/include/wx-3.0/wx/translation.h
+ /usr/include/wx-3.0/wx/typeinfo.h
+ /usr/include/wx-3.0/wx/unichar.h
+ /usr/include/wx-3.0/wx/unix/chkconf.h
+ /usr/include/wx-3.0/wx/unix/tls.h
+ /usr/include/wx-3.0/wx/variant.h
+ /usr/include/wx-3.0/wx/vector.h
+ /usr/include/wx-3.0/wx/version.h
+ /usr/include/wx-3.0/wx/versioninfo.h
+ /usr/include/wx-3.0/wx/windowid.h
+ /usr/include/wx-3.0/wx/wxcrt.h
+ /usr/include/wx-3.0/wx/wxcrtbase.h
+ /usr/include/wx-3.0/wx/wxcrtvararg.h
+ /usr/include/wx-3.0/wx/xti.h
+ /usr/include/wx-3.0/wx/xti2.h
+ /usr/include/wx-3.0/wx/xtictor.h
+ /usr/include/wx-3.0/wx/xtihandler.h
+ /usr/include/wx-3.0/wx/xtiprop.h
+ /usr/include/wx-3.0/wx/xtitypes.h
+ /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0/wx/setup.h
 CMakeFiles/membot.dir/src/graphnodes.cpp.o
  /home/brian/workspace/nd213-project3/src/chatbot.h
  /home/brian/workspace/nd213-project3/src/graphedge.h
