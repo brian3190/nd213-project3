@@ -18,12 +18,11 @@ ChatLogic::ChatLogic()
     //// STUDENT CODE
     ////
 
-    // No longer responsible for memory allocation or deallocation
     // create instance of chatbot
-    //_chatBot = new ChatBot("../images/chatbot.png");
+    _chatBot = new ChatBot("../images/chatbot.png");
 
     // add pointer to chatlogic so that chatbot answers can be passed on to the GUI
-    //_chatBot->SetChatLogicHandle(this);
+    _chatBot->SetChatLogicHandle(this);
 
     ////
     //// EOF STUDENT CODE
