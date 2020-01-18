@@ -19,10 +19,10 @@ ChatLogic::ChatLogic()
     ////
 
     // create instance of chatbot
-    _chatBot = new ChatBot("../images/chatbot.png");
+    //_chatBot = new ChatBot("../images/chatbot.png");
 
     // add pointer to chatlogic so that chatbot answers can be passed on to the GUI
-    _chatBot->SetChatLogicHandle(this);
+    //_chatBot->SetChatLogicHandle(this);
 
     ////
     //// EOF STUDENT CODE
@@ -37,7 +37,7 @@ ChatLogic::~ChatLogic()
     // delete _chatBot;
 
     // delete all nodes
-
+    /*
     for (auto it = std::begin(_nodes); it != std::end(_nodes); ++it)
     {
         std::cout << "deleted nodes" << "\n";
@@ -50,7 +50,7 @@ ChatLogic::~ChatLogic()
     {
         std::cout << "deleted edges" << "\n";
     }
-    
+    */
 
     ////
     //// EOF STUDENT CODE
@@ -137,7 +137,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                         // create new element if ID does not yet exist
                         if (newNode == _nodes.end())
                         {
-                            _nodes.emplace_back(new GraphNode(id));
+                            _nodes.emplace_back(std::make_unique<GraphNode>(id));
                             newNode = _nodes.end() - 1; // get iterator to last element
 
                             // add all answers to current node

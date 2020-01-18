@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/brian/workspace/nd213-project3/src/chatbot.cpp
+iostream
+-
+random
+-
+algorithm
+-
+ctime
+-
+chatlogic.h
+/home/brian/workspace/nd213-project3/src/chatlogic.h
+graphnodes.h
+/home/brian/workspace/nd213-project3/src/graphnodes.h
+graphedge.h
+/home/brian/workspace/nd213-project3/src/graphedge.h
+chatbot.h
+/home/brian/workspace/nd213-project3/src/chatbot.h
+
 /home/brian/workspace/nd213-project3/src/chatbot.h
 wx/bitmap.h
 -
@@ -17,32 +35,6 @@ memory
 -
 wx/wx.h
 -
-
-/home/brian/workspace/nd213-project3/src/chatlogic.cpp
-fstream
--
-sstream
--
-iostream
--
-vector
--
-iterator
--
-tuple
--
-algorithm
--
-memory
--
-graphedge.h
-/home/brian/workspace/nd213-project3/src/graphedge.h
-graphnodes.h
-/home/brian/workspace/nd213-project3/src/graphnodes.h
-chatbot.h
-/home/brian/workspace/nd213-project3/src/chatbot.h
-chatlogic.h
-/home/brian/workspace/nd213-project3/src/chatlogic.h
 
 /home/brian/workspace/nd213-project3/src/chatlogic.h
 vector
