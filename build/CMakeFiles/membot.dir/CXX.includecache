@@ -30,6 +30,24 @@ wx/bitmap.h
 string
 -
 
+/home/brian/workspace/nd213-project3/src/chatgui.cpp
+wx/filename.h
+-
+wx/colour.h
+-
+wx/image.h
+-
+string
+-
+memory
+-
+chatbot.h
+/home/brian/workspace/nd213-project3/src/chatbot.h
+chatlogic.h
+/home/brian/workspace/nd213-project3/src/chatlogic.h
+chatgui.h
+/home/brian/workspace/nd213-project3/src/chatgui.h
+
 /home/brian/workspace/nd213-project3/src/chatgui.h
 memory
 -
@@ -70,12 +88,6 @@ string
 chatgui.h
 /home/brian/workspace/nd213-project3/src/chatgui.h
 
-/home/brian/workspace/nd213-project3/src/graphedge.cpp
-graphnodes.h
-/home/brian/workspace/nd213-project3/src/graphnodes.h
-graphedge.h
-/home/brian/workspace/nd213-project3/src/graphedge.h
-
 /home/brian/workspace/nd213-project3/src/graphedge.h
 vector
 -
@@ -83,12 +95,6 @@ string
 -
 memory
 -
-
-/home/brian/workspace/nd213-project3/src/graphnodes.cpp
-graphedge.h
-/home/brian/workspace/nd213-project3/src/graphedge.h
-graphnodes.h
-/home/brian/workspace/nd213-project3/src/graphnodes.h
 
 /home/brian/workspace/nd213-project3/src/graphnodes.h
 vector
